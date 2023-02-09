@@ -180,7 +180,7 @@ public class DoubleList {
         System.out.println("\n\nElements in Double LinkedList are: ");
         Node temp = head;
         while (temp.next != null) {
-            System.out.print(temp.data + " -> ");
+            System.out.print(temp.data + " <-> ");
             temp = temp.next;
         }
         System.out.print(temp.data);
